@@ -7,6 +7,7 @@ const movies = [
     {id: 2, name: "crime"},
     {id: 3, name: "adventure"},
     {id: 4, name: "horror"},
+    {id: 5, name: "thriller"},
 ]
 
 router.get('/', (req, res) => {
