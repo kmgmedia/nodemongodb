@@ -24,6 +24,14 @@ router.post('/', (req, res) => {
     res.send(genre)
 })
 
+router.post('/', (req, res) => {
+    const genre = {
+        id: movies.length + 1,
+        name: req.body.name
+    };
+    movies.push(genre);
+    res.send(genre)
+})
 
 
 
